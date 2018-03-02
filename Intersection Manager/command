@@ -1,0 +1,44 @@
+./checker ./public_cases/input_1.txt ./public_cases/output1.txt 
+./checker ./public_cases/input_2.txt ./public_cases/output2.txt 
+./checker ./public_cases/input_3.txt ./public_cases/output3.txt 
+./checker ./public_cases/input_4.txt ./public_cases/output4.txt 
+./checker ./public_cases/input_5.txt ./public_cases/output5.txt 
+
+./build ./public_cases/input_1.txt out
+./checker ./public_cases/input_1.txt out
+./build ./public_cases/input_2.txt out
+./checker ./public_cases/input_2.txt out
+./build ./public_cases/input_3.txt out
+./checker ./public_cases/input_3.txt out
+./build ./public_cases/input_4.txt out
+./checker ./public_cases/input_4.txt out
+./build ./public_cases/input_5.txt out
+./checker ./public_cases/input_5.txt out
+
+
+
+./build ./case/case1 out
+./checker ./case/case1 out
+./build ./case/case5 out
+./checker ./case/case5 out
+./build ./case/case10 out
+./checker ./case/case10 out
+
+./build test out
+./checker test out
+
+ssh -p 40065 alg1753@edaunion.ee.ntu.edu.tw
+ssh -p 40058 alg1753@edaunion.ee.ntu.edu.tw
+
+./build input_1.txt out
+./checker input_1.txt out
+./build input_2.txt out
+./checker input_2.txt out
+./build input_3.txt out
+./checker input_3.txt out
+./build input_4.txt out
+./checker input_4.txt out
+./build input_5.txt out
+./checker input_1.txt out
+
+./checker input_4.txt output4.txt 
