@@ -1,0 +1,32 @@
+name: LeetHub Supports
+
+on:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  mv_leetcode_dirs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
+          fetch-depth: 0
+
+      - name: Move questions to leetcode directory
+        run: python3 .github/workflows/scripts/leethub.py
+
+      - name: Commit files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          git commit --amend -C HEAD
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+          force: true
