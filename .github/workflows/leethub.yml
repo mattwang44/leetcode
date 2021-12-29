@@ -15,7 +15,7 @@ jobs:
           fetch-depth: 0
 
       - name: Move questions to leetcode directory
-        run: python3 .github/workflows/scripts/leethub.py
+        run: python3 .github/workflows/scripts/leethub_support.py
 
       - name: Commit files
         run: |
