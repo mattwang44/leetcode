@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+
+# IDE
+.vscode
+
+# Python
+.pytest_cache/
+*__pycache__/
