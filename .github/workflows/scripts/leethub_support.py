@@ -41,23 +41,19 @@ class Question:
         self._init_question_meta()
 
     def _init_question_meta(self):
-        if self.is_in_target_directory:
-            self.tag = self.path.name.split('_')[-1]
+        self.tag = self.path.name.split('_')[-1]
+        if self.readme_path.exists():
             self._parse_meta_from_md()
             return
 
-        self.tag = self.path.name
-        if self.readme_path.exists():
-            self._parse_meta_from_md()
-        else:
-            existing_dirs = list(TARGET_DIRECTORY.glob(f'*_{self.tag}'))
-            if len(existing_dirs) == 0:
-                raise ValueError(f'Cannot find readme of {self.tag}')
-            if len(existing_dirs) > 1:
-                raise ValueError(f"Multiple existing readme of {self.tag} are found: {existing_dirs}. "
-                                 "Manually deleting duplicated ones may be required.")
-            existing_md = existing_dirs[0] / 'README.md'
-            self._parse_meta_from_md(existing_md)
+        existing_dirs = list(TARGET_DIRECTORY.glob(f'*_{self.tag}'))
+        if len(existing_dirs) == 0:
+            raise ValueError(f'Cannot find readme of {self.tag}')
+        if len(existing_dirs) > 1:
+            raise ValueError(f"Multiple existing readme of {self.tag} are found: {existing_dirs}. "
+                             "Manually deleting duplicated ones may be required.")
+        existing_md = existing_dirs[0] / 'README.md'
+        self._parse_meta_from_md(existing_md)
 
     def _parse_meta_from_md(self, path: Path = None):
         path = path if path else self.readme_path
