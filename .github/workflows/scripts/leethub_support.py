@@ -30,7 +30,7 @@ class Question:
             raise ValueError(f"{self.path.as_posix()} should be a directory")
 
         self.readme_path: Path = self.path / 'README.md'
-        if not self.readme_path.exists():
+        if self.is_in_target_directory and not self.readme_path.exists():
             raise ValueError(f"{self.readme_path.as_posix()} does not exist")
 
         # handle metadata
@@ -43,13 +43,26 @@ class Question:
     def _init_question_meta(self):
         if self.is_in_target_directory:
             self.tag = self.path.name.split('_')[-1]
-        else:
-            self.tag = self.path.name
-        self._parse_meta_from_md()
+            self._parse_meta_from_md()
+            return
 
-    def _parse_meta_from_md(self):
+        self.tag = self.path.name
+        if self.readme_path.exists():
+            self._parse_meta_from_md()
+        else:
+            existing_dirs = list(TARGET_DIRECTORY.glob(f'*_{self.tag}'))
+            if len(existing_dirs) == 0:
+                raise ValueError(f'Cannot find readme of {self.tag}')
+            if len(existing_dirs) > 1:
+                raise ValueError(f"Multiple existing readme of {self.tag} are found: {existing_dirs}. "
+                                 "Manually deleting duplicated ones may be required.")
+            existing_md = existing_dirs[0] / 'README.md'
+            self._parse_meta_from_md(existing_md)
+
+    def _parse_meta_from_md(self, path: Path = None):
+        path = path if path else self.readme_path
         pattern: str = r'^<h2>(\d+)\. (.*)</h2><h3>(.*)</h3>.*'
-        matched: re.Match = re.search(pattern, self.readme_path.read_text())
+        matched: re.Match = re.search(pattern, path.read_text())
         if matched:
             self.number = int(matched.groups()[0])
             self.title = matched.groups()[1]
@@ -69,8 +82,10 @@ class Question:
                     dest.unlink()
                 src.rename(dest)
             shutil.rmtree(self.path)
+            logging.info(f"Moved all files in {self.path} to {dest_directory}")
         else:
             self.path.rename(dest_directory)
+            logging.info(f"Renamed {self.path} as {dest_directory}")
         self.path = dest_directory
 
     @property
@@ -90,6 +105,7 @@ class Question:
 
 
 def move_question_directory():
+    logging.info(f"Moving submitted solutions to {TARGET_DIRECTORY}...")
     for path in WORKDIR.glob('*'):
         if path.is_file():
             continue
@@ -130,11 +146,12 @@ if __name__ == "__main__":
         level_count[q.difficulty.lower()] += 1
         total += 1
     questions.sort(key=lambda q: q.number)
+    logging.info(f"{total} questions are found ({level_count})")
 
     md_table = build_readme(questions)
     with open(SCRIPTS_DIRECTORY / 'README.md.tpl', 'r') as template, \
             open('README.md', 'w') as output:
         template_string = template.read()
-        content = template_string.format(
-            leetcode=md_table, total=total, **level_count)
+        content = template_string.format(leetcode=md_table, total=total, **level_count)
         output.write(content)
+    logging.info("Done updating README.md")
