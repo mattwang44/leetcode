@@ -6,12 +6,12 @@ on:
       - "main"
 
 jobs:
-  mv_leetcode_dirs:
+  leethub_support:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
-          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
+          persist-credentials: false
           fetch-depth: 0
 
       - name: Move questions to leetcode directory

@@ -1,0 +1,13 @@
+{
+  ".py": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+  ".c": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
+  ".cpp": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+  ".go": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
+  ".js": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+  ".java": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+  ".cs": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
+  ".rb": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg",
+  ".scala": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg",
+  ".rs": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svgs",
+  ".ts": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+}
