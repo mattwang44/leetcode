@@ -96,7 +96,7 @@ class Question:
         anchored_title = f"[{self.title}]({QUESTION_BASE_URL}/{self.tag})"
         solution_links = ""
         for ext, path in self.solutions_dict.items():
-            solution_links += f'<a src="{path}"><img src="{ICONS[ext]}" width="20" height="20"></a>'
+            solution_links += f'<a href="{path}"><img src="{ICONS[ext]}" width="20" height="20"></a>'
 
         return f"| {self.number} | {anchored_title} " + \
             f"| {solution_links} | {self.difficulty} |"
