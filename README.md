@@ -26,15 +26,3 @@
 | 1763 | [Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring) | <a href="leetcode/01763_longest-nice-substring/longest-nice-substring.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
 | 1887 | [Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal) | <a href="leetcode/01887_reduction-operations-to-make-the-array-elements-equal/reduction-operations-to-make-the-array-elements-equal.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 
-[.py]: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg
-[.c]: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg
-[.cpp]: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg
-[.go]: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg
-[.js]: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg
-[.java]: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg
-[.cs]: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg
-[.rb]: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg
-[.scala]: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg
-[.rs]: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svgs
-[.ts]: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg
-

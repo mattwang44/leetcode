@@ -88,19 +88,6 @@ class Question:
     def folder_name(self) -> str:
         return f"{str(self.number).zfill(5)}_{self.tag}"
 
-    @property
-    def md_repr(self) -> str:
-        """format as a line in markdown table
-        columns: (number, title, solutions, difficulty)
-        """
-        anchored_title = f"[{self.title}]({QUESTION_BASE_URL}/{self.tag})"
-        solution_links = ""
-        for ext, path in self.solutions_dict.items():
-            solution_links += f'<a href="{path}"><img src="{ICONS[ext]}" width="20" height="20"></a>'
-
-        return f"| {self.number} | {anchored_title} " + \
-            f"| {solution_links} | {self.difficulty} |"
-
 
 def move_question_directory():
     for path in WORKDIR.glob('*'):
@@ -119,12 +106,12 @@ def build_readme(questions: List[Question]) -> str:
     md = "| # | Title | Solutions | Difficulty |\n" + \
         "| - | - | - | - |\n"
     for q in questions:
-        md += f"{q.md_repr}\n"
-
-    md += "\n"
-    for ext, icon_path in ICONS.items():
-        md += f"[{ext}]: {icon_path}\n"
-
+        anchored_title = f"[{q.title}]({QUESTION_BASE_URL}/{q.tag})"
+        solution_links = ""
+        for ext, path in q.solutions_dict.items():
+            solution_links += f'<a href="{path}"><img src="{ICONS[ext]}" width="20" height="20"></a>'
+        md += f"| {q.number} | {anchored_title} " + \
+            f"| {solution_links} | {q.difficulty} |\n"
     return md
 
 
