@@ -13,12 +13,12 @@ class Solution:
         for i in range(R * C):
             ret[i] = matrix[m][n]
             matrix[m][n] = None
-            
+
             _m = m + dirs[dir_idx][0]
             _n = n + dirs[dir_idx][1]
             if not 0 <= _m < R or \
-              not 0 <= _n < C or \
-              matrix[_m][_n] is None:
+                    not 0 <= _n < C or \
+                    matrix[_m][_n] is None:
                 dir_idx = (dir_idx + 1) % 4
 
             m += dirs[dir_idx][0]

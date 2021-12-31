@@ -4,10 +4,10 @@ class Solution:
         count = 0
         while True:
             if not 0 <= l < length or \
-              not 0 <= r < length or \
-              s[l] != s[r]:
+                    not 0 <= r < length or \
+                    s[l] != s[r]:
                 break
-                
+
             count += 1
             l -= 1
             r += 1
@@ -20,7 +20,7 @@ class Solution:
 
             if idx == len(s) - 1:
                 break
-            
+
             count += self.expand_and_count_pal(s, idx, idx + 1)
-            
+
         return count

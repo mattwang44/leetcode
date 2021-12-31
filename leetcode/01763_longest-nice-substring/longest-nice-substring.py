@@ -5,8 +5,7 @@ class Solution:
             if not char.lower() in d or not char.capitalize() in d:
                 return False
         return True
-            
-        
+
     def longestNiceSubstring(self, s: str) -> str:
         length = len(s)
         curr_longest = ''
@@ -17,5 +16,3 @@ class Solution:
                 if self.isValidNiceString(s[i:j]):
                     curr_longest = s[i:j]
         return curr_longest
-            
-            

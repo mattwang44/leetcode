@@ -10,7 +10,7 @@ class Solution:
                 non_zeros.append(n)
 
         zero_count = len(zero_idx)
-        
+
         # not any zero
         if zero_count == 0:
             product = reduce(lambda x, y: x * y, nums)

@@ -9,29 +9,26 @@ class Solution:
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
         if not headA or not headB:
             return None
-        
+
         if headA == headB:
             return headA
-        
+
         a, b = headA, headB
         jump_count = 0
         while jump_count < 3:
             if a == b:
                 return a
-            
+
             if a.next:
                 a = a.next
             else:
                 a = headB
                 jump_count += 1
-                
+
             if b.next:
                 b = b.next
             else:
                 b = headA
                 jump_count += 1
-        
+
         return None
-            
-            
-        

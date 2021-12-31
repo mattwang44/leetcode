@@ -16,6 +16,11 @@ jobs:
 
       - name: Move questions to leetcode directory
         run: python3 .github/workflows/scripts/leethub_support.py
+      
+      - name: Run autopep8
+        run: |
+          pip3 install autopep8
+          autopep8 -i -r leetcode
 
       - name: Commit files
         run: |

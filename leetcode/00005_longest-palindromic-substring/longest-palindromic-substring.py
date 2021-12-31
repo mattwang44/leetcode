@@ -10,14 +10,14 @@ class Solution:
             start -= 1
             end += 1
         return ret
-        
+
     def longestPalindrome(self, s: str) -> str:
         ret = ''
         for i in range(len(s)):
             string = self.expand(s, i, i)
             if len(string) > len(ret):
                 ret = string
-            
+
             if i + 1 == len(s):
                 break
 
@@ -25,5 +25,3 @@ class Solution:
             if len(string) > len(ret):
                 ret = string
         return ret
-                
-    

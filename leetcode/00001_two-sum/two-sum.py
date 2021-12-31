@@ -5,4 +5,3 @@ class Solution:
             if n in memo:
                 return [memo[n], idx]
             memo[target - n] = idx
-        

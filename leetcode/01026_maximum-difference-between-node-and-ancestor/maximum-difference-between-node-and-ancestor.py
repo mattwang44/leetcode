@@ -7,7 +7,7 @@
 class Solution:
     def maxAncestorDiff(self, root: Optional[TreeNode]) -> int:
         max_diff = 0
-        
+
         def findMinMaxChildValue(root):
             nonlocal max_diff
             l_max = r_max = l_min = r_min = root.val

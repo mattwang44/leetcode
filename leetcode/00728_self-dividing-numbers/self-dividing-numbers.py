@@ -5,7 +5,7 @@ class Solution:
             ret.append(number % 10)
             number //= 10
         return ret
-        
+
     def selfDividingNumbers(self, left: int, right: int) -> List[int]:
         ret = []
         for number in range(left, right + 1):
@@ -21,4 +21,3 @@ class Solution:
             if ok:
                 ret.append(number)
         return ret
-    
