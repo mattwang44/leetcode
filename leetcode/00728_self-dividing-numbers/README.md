@@ -1,4 +1,4 @@
-<h2>728. Self Dividing Numbers</h2><h3>Easy</h3><hr><div><p>A <strong>self-dividing number</strong> is a number that is divisible by every digit it contains.</p>
+<h2><a href="https://leetcode.com/problems/self-dividing-numbers/">728. Self Dividing Numbers</a></h2><h3>Easy</h3><hr><div><p>A <strong>self-dividing number</strong> is a number that is divisible by every digit it contains.</p>
 
 <ul>
 	<li>For example, <code>128</code> is <strong>a self-dividing number</strong> because <code>128 % 1 == 0</code>, <code>128 % 2 == 0</code>, and <code>128 % 8 == 0</code>.</li>

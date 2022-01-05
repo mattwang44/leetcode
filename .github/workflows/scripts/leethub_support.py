@@ -41,10 +41,17 @@ class Question:
         self._init_question_meta()
 
     def _init_question_meta(self):
-        self.tag = self.path.name.split('_')[-1]
         if self.readme_path.exists():
             self._parse_meta_from_md()
             return
+
+        splited_tag = self.path.name.split('_')
+        if len(splited_tag) == 2:
+            self.tag = splited_tag[-1]
+        elif len(splited_tag) == 1:
+            self.tag = '-'.join(self.path.name.split('-')[1:])
+        else:
+            raise ValueError(f'Cannot parse question tag for {self.path}')
 
         existing_dirs = list(TARGET_DIRECTORY.glob(f'*_{self.tag}'))
         if len(existing_dirs) == 0:
@@ -57,12 +64,13 @@ class Question:
 
     def _parse_meta_from_md(self, path: Path = None):
         path = path if path else self.readme_path
-        pattern: str = r'^<h2>(\d+)\. (.*)</h2><h3>(.*)</h3>.*'
+        pattern: str = r'^<h2><a href="https://leetcode\.com/problems/(.*)[//]+">(\d+)\. (.*)</a></h2><h3>(.*)</h3>.*'
         matched: re.Match = re.search(pattern, path.read_text())
         if matched:
-            self.number = int(matched.groups()[0])
-            self.title = matched.groups()[1]
-            self.difficulty = matched.groups()[2]
+            self.tag = matched.groups()[0]
+            self.number = int(matched.groups()[1])
+            self.title = matched.groups()[2]
+            self.difficulty = matched.groups()[3]
         else:
             logging.warning(f'Failed to parse metadata from question readme from "{self.path}"')
 
@@ -91,13 +99,17 @@ class Question:
     @property
     def solutions_dict(self) -> Dict[str, Path]:
         solutions: Dict[str, Path] = {}  # ext as dict key
-        for sol in self.path.glob(f"{self.tag}.*"):
+        for sol in self.path.glob(f"*{self.tag}.*"):
             solutions[sol.suffix] = sol
         return solutions
 
     @property
     def folder_name(self) -> str:
         return f"{str(self.number).zfill(5)}_{self.tag}"
+
+    @property
+    def link(self) -> str:
+        return f"{QUESTION_BASE_URL}/{self.tag}/"
 
 
 def move_question_directory():
@@ -118,7 +130,7 @@ def build_readme(questions: List[Question]) -> str:
     md = "| # | Title | Solutions | Difficulty |\n" + \
         "| - | - | - | - |\n"
     for q in questions:
-        anchored_title = f"[{q.title}]({QUESTION_BASE_URL}/{q.tag})"
+        anchored_title = f"[{q.title}]({q.link})"
         solution_links = ""
         for ext, path in q.solutions_dict.items():
             solution_links += f'<a href="{path}"><img src="{ICONS[ext]}" width="20" height="20"></a>'

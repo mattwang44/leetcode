@@ -1,4 +1,4 @@
-<h2>1244. Design A Leaderboard</h2><h3>Medium</h3><hr><div><p>Design a Leaderboard class, which has 3 functions:</p>
+<h2><a href="https://leetcode.com/problems/design-a-leaderboard/">1244. Design A Leaderboard</a></h2><h3>Medium</h3><hr><div><p>Design a Leaderboard class, which has 3 functions:</p>
 
 <ol>
 	<li><code>addScore(playerId, score)</code>: Update the leaderboard by adding <code>score</code> to the given player's score. If there is no player with such id in the leaderboard, add him to the leaderboard with the given <code>score</code>.</li>

@@ -1,4 +1,4 @@
-<h2>1044. Longest Duplicate Substring</h2><h3>Hard</h3><hr><div><p>Given a string <code>s</code>, consider all <em>duplicated substrings</em>: (contiguous) substrings of s that occur 2 or more times.&nbsp;The occurrences&nbsp;may overlap.</p>
+<h2><a href="https://leetcode.com/problems/longest-duplicate-substring/">1044. Longest Duplicate Substring</a></h2><h3>Hard</h3><hr><div><p>Given a string <code>s</code>, consider all <em>duplicated substrings</em>: (contiguous) substrings of s that occur 2 or more times.&nbsp;The occurrences&nbsp;may overlap.</p>
 
 <p>Return <strong>any</strong> duplicated&nbsp;substring that has the longest possible length.&nbsp;If <code>s</code> does not have a duplicated substring, the answer is <code>""</code>.</p>
 
