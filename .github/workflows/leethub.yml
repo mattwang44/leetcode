@@ -21,6 +21,9 @@ jobs:
         run: |
           pip3 install autopep8
           autopep8 -i -r leetcode
+      
+      - name: Format go answers
+        run: .github/workflows/scripts/go_handler.sh
 
       - name: Commit files
         run: |
