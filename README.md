@@ -2,7 +2,7 @@
 
 ## LeetCode
 
-**Problem Solved: 48** (<span style="color:green">Easy: 11</span>, <span style="color:orange">Medium: 31</span>, <span style="color:red">Hard: 6</span>)
+**Problem Solved: 49** (<span style="color:green">Easy: 11</span>, <span style="color:orange">Medium: 32</span>, <span style="color:red">Hard: 6</span>)
 
 | # | Title | Solutions | Difficulty |
 | - | - | - | - |
@@ -41,6 +41,7 @@
 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | <a href="leetcode/00692_top-k-frequent-words/692-top-k-frequent-words.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 701 | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | <a href="leetcode/00701_insert-into-a-binary-search-tree/701-insert-into-a-binary-search-tree.java"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="20" height="20"></a><a href="leetcode/00701_insert-into-a-binary-search-tree/701-insert-into-a-binary-search-tree.go"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="20" height="20"></a><a href="leetcode/00701_insert-into-a-binary-search-tree/701-insert-into-a-binary-search-tree.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | <a href="leetcode/00728_self-dividing-numbers/self-dividing-numbers.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
+| 849 | [Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) | <a href="leetcode/00849_maximize-distance-to-closest-person/849-maximize-distance-to-closest-person.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 862 | [Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) | <a href="leetcode/00862_shortest-subarray-with-sum-at-least-k/862-shortest-subarray-with-sum-at-least-k.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Hard |
 | 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | <a href="leetcode/00997_find-the-town-judge/find-the-town-judge.cpp"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="20" height="20"></a><a href="leetcode/00997_find-the-town-judge/find-the-town-judge.java"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="20" height="20"></a> | Easy |
 | 1015 | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) | <a href="leetcode/01015_smallest-integer-divisible-by-k/smallest-integer-divisible-by-k.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
