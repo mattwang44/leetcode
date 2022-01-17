@@ -2,7 +2,7 @@
 
 ## LeetCode
 
-**Problem Solved: 49** (<span style="color:green">Easy: 11</span>, <span style="color:orange">Medium: 32</span>, <span style="color:red">Hard: 6</span>)
+**Problem Solved: 51** (<span style="color:green">Easy: 12</span>, <span style="color:orange">Medium: 33</span>, <span style="color:red">Hard: 6</span>)
 
 | # | Title | Solutions | Difficulty |
 | - | - | - | - |
@@ -32,7 +32,9 @@
 | 252 | [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) | <a href="leetcode/00252_meeting-rooms/meeting-rooms.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
 | 253 | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | <a href="leetcode/00253_meeting-rooms-ii/253-meeting-rooms-ii.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a><a href="leetcode/00253_meeting-rooms-ii/253-meeting-rooms-ii.java"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="20" height="20"></a> | Medium |
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number/) | <a href="leetcode/00263_ugly-number/ugly-number.cpp"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="20" height="20"></a><a href="leetcode/00263_ugly-number/ugly-number.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
+| 290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | <a href="leetcode/00290_word-pattern/290-word-pattern.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | <a href="leetcode/00347_top-k-frequent-elements/top-k-frequent-elements.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
+| 366 | [Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/) | <a href="leetcode/00366_find-leaves-of-binary-tree/366-find-leaves-of-binary-tree.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 452 | [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | <a href="leetcode/00452_minimum-number-of-arrows-to-burst-balloons/452-minimum-number-of-arrows-to-burst-balloons.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 529 | [Minesweeper](https://leetcode.com/problems/minesweeper/) | <a href="leetcode/00529_minesweeper/529-minesweeper.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | <a href="leetcode/00560_subarray-sum-equals-k/560-subarray-sum-equals-k.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
