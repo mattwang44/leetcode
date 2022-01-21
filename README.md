@@ -2,7 +2,7 @@
 
 ## LeetCode
 
-**Problem Solved: 57** (<span style="color:green">Easy: 14</span>, <span style="color:orange">Medium: 36</span>, <span style="color:red">Hard: 7</span>)
+**Problem Solved: 59** (<span style="color:green">Easy: 14</span>, <span style="color:orange">Medium: 38</span>, <span style="color:red">Hard: 7</span>)
 
 | # | Title | Solutions | Difficulty |
 | - | - | - | - |
@@ -11,6 +11,7 @@
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | <a href="leetcode/00008_string-to-integer-atoi/8-string-to-integer-atoi.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | <a href="leetcode/00020_valid-parentheses/20-valid-parentheses.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
 | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | <a href="leetcode/00023_merge-k-sorted-lists/merge-k-sorted-lists.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Hard |
+| 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | <a href="leetcode/00024_swap-nodes-in-pairs/24-swap-nodes-in-pairs.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | <a href="leetcode/00028_implement-strstr/implement-strstr.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | <a href="leetcode/00031_next-permutation/next-permutation.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | <a href="leetcode/00032_longest-valid-parentheses/longest-valid-parentheses.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Hard |
@@ -59,6 +60,7 @@
 | 1044 | [Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring/) | <a href="leetcode/01044_longest-duplicate-substring/longest-duplicate-substring.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Hard |
 | 1094 | [Car Pooling](https://leetcode.com/problems/car-pooling/) | <a href="leetcode/01094_car-pooling/1094-car-pooling.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 1244 | [Design A Leaderboard](https://leetcode.com/problems/design-a-leaderboard/) | <a href="leetcode/01244_design-a-leaderboard/design-a-leaderboard.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
+| 1721 | [Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/) | <a href="leetcode/01721_swapping-nodes-in-a-linked-list/1721-swapping-nodes-in-a-linked-list.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 1763 | [Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring/) | <a href="leetcode/01763_longest-nice-substring/longest-nice-substring.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
 | 1838 | [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/) | <a href="leetcode/01838_frequency-of-the-most-frequent-element/1838-frequency-of-the-most-frequent-element.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 1884 | [Egg Drop With 2 Eggs and N Floors](https://leetcode.com/problems/egg-drop-with-2-eggs-and-n-floors/) | <a href="leetcode/01884_egg-drop-with-2-eggs-and-n-floors/1884-egg-drop-with-2-eggs-and-n-floors.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
