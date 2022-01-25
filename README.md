@@ -2,11 +2,12 @@
 
 ## LeetCode
 
-**Problem Solved: 67** (<span style="color:green">Easy: 15</span>, <span style="color:orange">Medium: 44</span>, <span style="color:red">Hard: 8</span>)
+**Problem Solved: 68** (<span style="color:green">Easy: 15</span>, <span style="color:orange">Medium: 45</span>, <span style="color:red">Hard: 8</span>)
 
 | # | Title | Solutions | Difficulty |
 | - | - | - | - |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | <a href="leetcode/00001_two-sum/two-sum.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a><a href="leetcode/00001_two-sum/two-sum.js"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="20" height="20"></a> | Easy |
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | <a href="leetcode/00003_longest-substring-without-repeating-characters/3-longest-substring-without-repeating-characters.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | <a href="leetcode/00005_longest-palindromic-substring/longest-palindromic-substring.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | <a href="leetcode/00008_string-to-integer-atoi/8-string-to-integer-atoi.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | <a href="leetcode/00015_3sum/15-3sum.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
