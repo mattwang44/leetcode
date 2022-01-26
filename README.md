@@ -2,7 +2,7 @@
 
 ## LeetCode
 
-**Problem Solved: 68** (<span style="color:green">Easy: 15</span>, <span style="color:orange">Medium: 45</span>, <span style="color:red">Hard: 8</span>)
+**Problem Solved: 70** (<span style="color:green">Easy: 16</span>, <span style="color:orange">Medium: 46</span>, <span style="color:red">Hard: 8</span>)
 
 | # | Title | Solutions | Difficulty |
 | - | - | - | - |
@@ -27,6 +27,7 @@
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | <a href="leetcode/00056_merge-intervals/merge-intervals.cpp"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="20" height="20"></a><a href="leetcode/00056_merge-intervals/merge-intervals.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | <a href="leetcode/00062_unique-paths/unique-paths.cpp"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="20" height="20"></a> | Medium |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | <a href="leetcode/00067_add-binary/67-add-binary.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
+| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | <a href="leetcode/00094_binary-tree-inorder-traversal/94-binary-tree-inorder-traversal.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | <a href="leetcode/00131_palindrome-partitioning/131-palindrome-partitioning.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | <a href="leetcode/00142_linked-list-cycle-ii/142-linked-list-cycle-ii.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | <a href="leetcode/00160_intersection-of-two-linked-lists/intersection-of-two-linked-lists.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
@@ -66,6 +67,7 @@
 | 1041 | [Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/) | <a href="leetcode/01041_robot-bounded-in-circle/1041-robot-bounded-in-circle.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 1044 | [Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring/) | <a href="leetcode/01044_longest-duplicate-substring/longest-duplicate-substring.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Hard |
 | 1094 | [Car Pooling](https://leetcode.com/problems/car-pooling/) | <a href="leetcode/01094_car-pooling/1094-car-pooling.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
+| 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | <a href="leetcode/01143_longest-common-subsequence/1143-longest-common-subsequence.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 1244 | [Design A Leaderboard](https://leetcode.com/problems/design-a-leaderboard/) | <a href="leetcode/01244_design-a-leaderboard/design-a-leaderboard.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 1291 | [Sequential Digits](https://leetcode.com/problems/sequential-digits/) | <a href="leetcode/01291_sequential-digits/sequential-digits.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 1602 | [Find Nearest Right Node in Binary Tree](https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/) | <a href="leetcode/01602_find-nearest-right-node-in-binary-tree/1602-find-nearest-right-node-in-binary-tree.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
