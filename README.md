@@ -2,7 +2,7 @@
 
 ## LeetCode
 
-**Problem Solved: 70** (<span style="color:green">Easy: 16</span>, <span style="color:orange">Medium: 46</span>, <span style="color:red">Hard: 8</span>)
+**Problem Solved: 71** (<span style="color:green">Easy: 16</span>, <span style="color:orange">Medium: 47</span>, <span style="color:red">Hard: 8</span>)
 
 | # | Title | Solutions | Difficulty |
 | - | - | - | - |
@@ -33,6 +33,7 @@
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | <a href="leetcode/00160_intersection-of-two-linked-lists/intersection-of-two-linked-lists.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | <a href="leetcode/00200_number-of-islands/200-number-of-islands.cpp"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="20" height="20"></a><a href="leetcode/00200_number-of-islands/200-number-of-islands.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | <a href="leetcode/00209_minimum-size-subarray-sum/209-minimum-size-subarray-sum.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
+| 211 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | <a href="leetcode/00211_design-add-and-search-words-data-structure/211-design-add-and-search-words-data-structure.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) | <a href="leetcode/00224_basic-calculator/224-basic-calculator.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Hard |
 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | <a href="leetcode/00236_lowest-common-ancestor-of-a-binary-tree/236-lowest-common-ancestor-of-a-binary-tree.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | <a href="leetcode/00238_product-of-array-except-self/product-of-array-except-self.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
