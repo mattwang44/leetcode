@@ -2,7 +2,7 @@
 
 ## LeetCode
 
-**Problem Solved: 74** (<span style="color:green">Easy: 16</span>, <span style="color:orange">Medium: 50</span>, <span style="color:red">Hard: 8</span>)
+**Problem Solved: 76** (<span style="color:green">Easy: 17</span>, <span style="color:orange">Medium: 51</span>, <span style="color:red">Hard: 8</span>)
 
 | # | Title | Solutions | Difficulty |
 | - | - | - | - |
@@ -34,6 +34,7 @@
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | <a href="leetcode/00142_linked-list-cycle-ii/142-linked-list-cycle-ii.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | <a href="leetcode/00160_intersection-of-two-linked-lists/intersection-of-two-linked-lists.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | <a href="leetcode/00200_number-of-islands/200-number-of-islands.cpp"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="20" height="20"></a><a href="leetcode/00200_number-of-islands/200-number-of-islands.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
+| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) |  | Easy |
 | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | <a href="leetcode/00209_minimum-size-subarray-sum/209-minimum-size-subarray-sum.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 211 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | <a href="leetcode/00211_design-add-and-search-words-data-structure/211-design-add-and-search-words-data-structure.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 223 | [Rectangle Area](https://leetcode.com/problems/rectangle-area/) | <a href="leetcode/00223_rectangle-area/223-rectangle-area.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
@@ -48,6 +49,7 @@
 | 329 | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | <a href="leetcode/00329_longest-increasing-path-in-a-matrix/329-longest-increasing-path-in-a-matrix.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Hard |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | <a href="leetcode/00347_top-k-frequent-elements/top-k-frequent-elements.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 366 | [Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/) | <a href="leetcode/00366_find-leaves-of-binary-tree/366-find-leaves-of-binary-tree.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
+| 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | <a href="leetcode/00445_add-two-numbers-ii/445-add-two-numbers-ii.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 452 | [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | <a href="leetcode/00452_minimum-number-of-arrows-to-burst-balloons/452-minimum-number-of-arrows-to-burst-balloons.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | <a href="leetcode/00520_detect-capital/520-detect-capital.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
 | 529 | [Minesweeper](https://leetcode.com/problems/minesweeper/) | <a href="leetcode/00529_minesweeper/529-minesweeper.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
