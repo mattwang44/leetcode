@@ -31,6 +31,9 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add -A
           git commit --amend -C HEAD
+        
+      - name: Merge commits authored today
+        run: .github/workflows/scripts/merge_commits.sh
 
       - name: Push changes
         uses: ad-m/github-push-action@master
