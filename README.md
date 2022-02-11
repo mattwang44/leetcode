@@ -2,7 +2,7 @@
 
 ## LeetCode
 
-**Problem Solved: 82** (<span style="color:green">Easy: 17</span>, <span style="color:orange">Medium: 57</span>, <span style="color:red">Hard: 8</span>)
+**Problem Solved: 84** (<span style="color:green">Easy: 17</span>, <span style="color:orange">Medium: 59</span>, <span style="color:red">Hard: 8</span>)
 
 | # | Title | Solutions | Difficulty |
 | - | - | - | - |
@@ -53,11 +53,13 @@
 | 329 | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | <a href="leetcode/00329_longest-increasing-path-in-a-matrix/329-longest-increasing-path-in-a-matrix.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Hard |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | <a href="leetcode/00347_top-k-frequent-elements/top-k-frequent-elements.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 366 | [Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/) | <a href="leetcode/00366_find-leaves-of-binary-tree/366-find-leaves-of-binary-tree.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
+| 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | <a href="leetcode/00438_find-all-anagrams-in-a-string/438-find-all-anagrams-in-a-string.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | <a href="leetcode/00445_add-two-numbers-ii/445-add-two-numbers-ii.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 452 | [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | <a href="leetcode/00452_minimum-number-of-arrows-to-burst-balloons/452-minimum-number-of-arrows-to-burst-balloons.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | <a href="leetcode/00520_detect-capital/520-detect-capital.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
 | 529 | [Minesweeper](https://leetcode.com/problems/minesweeper/) | <a href="leetcode/00529_minesweeper/529-minesweeper.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | <a href="leetcode/00560_subarray-sum-equals-k/560-subarray-sum-equals-k.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
+| 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | <a href="leetcode/00567_permutation-in-string/567-permutation-in-string.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | <a href="leetcode/00605_can-place-flowers/605-can-place-flowers.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
 | 647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | <a href="leetcode/00647_palindromic-substrings/palindromic-substrings.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 657 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) | <a href="leetcode/00657_robot-return-to-origin/robot-return-to-origin.cpp"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="20" height="20"></a> | Easy |
