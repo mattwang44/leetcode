@@ -2,7 +2,7 @@
 
 ## LeetCode
 
-**Problem Solved: 97** (<span style="color:green">Easy: 20</span>, <span style="color:orange">Medium: 67</span>, <span style="color:red">Hard: 10</span>)
+**Problem Solved: 98** (<span style="color:green">Easy: 21</span>, <span style="color:orange">Medium: 67</span>, <span style="color:red">Hard: 10</span>)
 
 | # | Title | Solutions | Difficulty |
 | - | - | - | - |
@@ -41,6 +41,7 @@
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | <a href="leetcode/00150_evaluate-reverse-polish-notation/150-evaluate-reverse-polish-notation.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | <a href="leetcode/00160_intersection-of-two-linked-lists/intersection-of-two-linked-lists.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | <a href="leetcode/00169_majority-element/169-majority-element.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
+| 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | <a href="leetcode/00171_excel-sheet-column-number/171-excel-sheet-column-number.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | <a href="leetcode/00200_number-of-islands/200-number-of-islands.cpp"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="20" height="20"></a><a href="leetcode/00200_number-of-islands/200-number-of-islands.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | <a href="leetcode/00206_reverse-linked-list/206-reverse-linked-list.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
 | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | <a href="leetcode/00209_minimum-size-subarray-sum/209-minimum-size-subarray-sum.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
