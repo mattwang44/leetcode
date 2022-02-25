@@ -7,15 +7,13 @@
 class Solution:
     # time O(N), space O(N)
     def findLeaves(self, root: Optional[TreeNode]) -> List[List[int]]:
-        memo = {}
+        memo = defaultdict(list)
 
         def helper(root):
             if not root:
                 return 1
 
             height = max(helper(root.right) + 1, helper(root.left) + 1)
-            if height not in memo:
-                memo[height] = []
             memo[height].append(root.val)
             return height
 
