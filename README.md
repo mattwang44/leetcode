@@ -2,7 +2,7 @@
 
 ## LeetCode
 
-**Problem Solved: 98** (<span style="color:green">Easy: 21</span>, <span style="color:orange">Medium: 67</span>, <span style="color:red">Hard: 10</span>)
+**Problem Solved: 101** (<span style="color:green">Easy: 23</span>, <span style="color:orange">Medium: 67</span>, <span style="color:red">Hard: 11</span>)
 
 | # | Title | Solutions | Difficulty |
 | - | - | - | - |
@@ -23,6 +23,7 @@
 | 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | <a href="leetcode/00034_find-first-and-last-position-of-element-in-sorted-array/34-find-first-and-last-position-of-element-in-sorted-array.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | <a href="leetcode/00039_combination-sum/combination-sum.cpp"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="20" height="20"></a> | Medium |
 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | <a href="leetcode/00041_first-missing-positive/first-missing-positive.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Hard |
+| 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | <a href="leetcode/00042_trapping-rain-water/42-trapping-rain-water.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Hard |
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | <a href="leetcode/00045_jump-game-ii/jump-game-ii.cpp"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="20" height="20"></a> | Medium |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | <a href="leetcode/00049_group-anagrams/49-group-anagrams.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | <a href="leetcode/00054_spiral-matrix/spiral-matrix.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
@@ -59,8 +60,10 @@
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | <a href="leetcode/00290_word-pattern/290-word-pattern.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
 | 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | <a href="leetcode/00322_coin-change/322-coin-change.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 329 | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | <a href="leetcode/00329_longest-increasing-path-in-a-matrix/329-longest-increasing-path-in-a-matrix.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Hard |
+| 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | <a href="leetcode/00338_counting-bits/338-counting-bits.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | <a href="leetcode/00347_top-k-frequent-elements/top-k-frequent-elements.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 366 | [Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/) | <a href="leetcode/00366_find-leaves-of-binary-tree/366-find-leaves-of-binary-tree.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
+| 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | <a href="leetcode/00387_first-unique-character-in-a-string/387-first-unique-character-in-a-string.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
 | 436 | [Find Right Interval](https://leetcode.com/problems/find-right-interval/) | <a href="leetcode/00436_find-right-interval/436-find-right-interval.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | <a href="leetcode/00438_find-all-anagrams-in-a-string/438-find-all-anagrams-in-a-string.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | <a href="leetcode/00445_add-two-numbers-ii/445-add-two-numbers-ii.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
