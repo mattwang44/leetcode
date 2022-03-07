@@ -2,7 +2,7 @@
 
 ## LeetCode
 
-**Problem Solved: 101** (<span style="color:green">Easy: 23</span>, <span style="color:orange">Medium: 67</span>, <span style="color:red">Hard: 11</span>)
+**Problem Solved: 102** (<span style="color:green">Easy: 24</span>, <span style="color:orange">Medium: 67</span>, <span style="color:red">Hard: 11</span>)
 
 | # | Title | Solutions | Difficulty |
 | - | - | - | - |
@@ -13,6 +13,7 @@
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | <a href="leetcode/00015_3sum/15-3sum.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | <a href="leetcode/00017_letter-combinations-of-a-phone-number/17-letter-combinations-of-a-phone-number.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | <a href="leetcode/00020_valid-parentheses/20-valid-parentheses.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
+| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | <a href="leetcode/00021_merge-two-sorted-lists/21-merge-two-sorted-lists.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | <a href="leetcode/00022_generate-parentheses/22-generate-parentheses.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | <a href="leetcode/00023_merge-k-sorted-lists/merge-k-sorted-lists.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Hard |
 | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | <a href="leetcode/00024_swap-nodes-in-pairs/24-swap-nodes-in-pairs.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
