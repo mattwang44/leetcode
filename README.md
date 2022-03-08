@@ -2,7 +2,7 @@
 
 ## LeetCode
 
-**Problem Solved: 102** (<span style="color:green">Easy: 24</span>, <span style="color:orange">Medium: 67</span>, <span style="color:red">Hard: 11</span>)
+**Problem Solved: 103** (<span style="color:green">Easy: 25</span>, <span style="color:orange">Medium: 67</span>, <span style="color:red">Hard: 11</span>)
 
 | # | Title | Solutions | Difficulty |
 | - | - | - | - |
@@ -39,6 +39,7 @@
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | <a href="leetcode/00128_longest-consecutive-sequence/128-longest-consecutive-sequence.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | <a href="leetcode/00131_palindrome-partitioning/131-palindrome-partitioning.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | <a href="leetcode/00136_single-number/136-single-number.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
+| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | <a href="leetcode/00141_linked-list-cycle/141-linked-list-cycle.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | <a href="leetcode/00142_linked-list-cycle-ii/142-linked-list-cycle-ii.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | <a href="leetcode/00150_evaluate-reverse-polish-notation/150-evaluate-reverse-polish-notation.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | <a href="leetcode/00160_intersection-of-two-linked-lists/intersection-of-two-linked-lists.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
