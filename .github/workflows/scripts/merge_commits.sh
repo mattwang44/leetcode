@@ -2,7 +2,7 @@ DATE_TODAY=$(date +"%Y-%m-%d")
 
 function isHeadAuthorDateToday() {
     headAuthorDate=$(git --no-pager log -n 1 --pretty=format:%ai | cut -f 1 -d ' ')
-    if [[ $headAuthorDate -eq $DATE_TODAY ]]; then
+    if [[ $headAuthorDate = $DATE_TODAY ]]; then
         return 0
     else
         return 1
