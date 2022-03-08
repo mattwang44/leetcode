@@ -25,6 +25,9 @@ jobs:
       - name: Format go answers
         run: .github/workflows/scripts/go_handler.sh
 
+      - name: Remove empty files
+        run: find ./leetcode -size -4c -print -delete
+
       - name: Commit files
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
