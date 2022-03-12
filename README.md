@@ -2,7 +2,7 @@
 
 ## LeetCode
 
-**Problem Solved: 106** (<span style="color:green">Easy: 25</span>, <span style="color:orange">Medium: 69</span>, <span style="color:red">Hard: 12</span>)
+**Problem Solved: 107** (<span style="color:green">Easy: 25</span>, <span style="color:orange">Medium: 70</span>, <span style="color:red">Hard: 12</span>)
 
 | # | Title | Solutions | Difficulty |
 | - | - | - | - |
@@ -30,6 +30,7 @@
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | <a href="leetcode/00054_spiral-matrix/spiral-matrix.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | <a href="leetcode/00055_jump-game/jump-game.cpp"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="20" height="20"></a> | Medium |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | <a href="leetcode/00056_merge-intervals/merge-intervals.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a><a href="leetcode/00056_merge-intervals/merge-intervals.cpp"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="20" height="20"></a> | Medium |
+| 61 | [Rotate List](https://leetcode.com/problems/rotate-list/) | <a href="leetcode/00061_rotate-list/61-rotate-list.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | <a href="leetcode/00062_unique-paths/unique-paths.cpp"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="20" height="20"></a> | Medium |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | <a href="leetcode/00067_add-binary/67-add-binary.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
 | 68 | [Text Justification](https://leetcode.com/problems/text-justification/) | <a href="leetcode/00068_text-justification/68-text-justification.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Hard |
