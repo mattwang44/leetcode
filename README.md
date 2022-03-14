@@ -2,7 +2,7 @@
 
 ## LeetCode
 
-**Problem Solved: 127** (<span style="color:green">Easy: 27</span>, <span style="color:orange">Medium: 86</span>, <span style="color:red">Hard: 14</span>)
+**Problem Solved: 128** (<span style="color:green">Easy: 27</span>, <span style="color:orange">Medium: 86</span>, <span style="color:red">Hard: 15</span>)
 
 | # | Title | Solutions | Difficulty |
 | - | - | - | - |
@@ -42,6 +42,7 @@
 | 107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | <a href="leetcode/00107_binary-tree-level-order-traversal-ii/107-binary-tree-level-order-traversal-ii.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | <a href="leetcode/00121_best-time-to-buy-and-sell-stock/121-best-time-to-buy-and-sell-stock.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | <a href="leetcode/00122_best-time-to-buy-and-sell-stock-ii/122-best-time-to-buy-and-sell-stock-ii.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
+| 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | <a href="leetcode/00127_word-ladder/127-word-ladder.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Hard |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | <a href="leetcode/00128_longest-consecutive-sequence/128-longest-consecutive-sequence.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | <a href="leetcode/00131_palindrome-partitioning/131-palindrome-partitioning.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | <a href="leetcode/00136_single-number/136-single-number.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
