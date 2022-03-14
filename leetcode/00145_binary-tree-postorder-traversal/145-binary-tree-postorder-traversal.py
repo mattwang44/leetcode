@@ -5,10 +5,30 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+    # Recursive, time O(N), space O(N)
     def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         if not root:
             return []
 
-        return self.postorderTraversal(root.left) + \
-            self.postorderTraversal(root.right) + \
-            [root.val]
+        ret = self.postorderTraversal(root.left)
+        ret.extend(self.postorderTraversal(root.right))
+        ret.append(root.val)
+
+        return ret
+
+    # Iterative, time O(N), space O(N)
+    def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        if not root:
+            return []
+
+        ret = []
+        stack = [root]
+
+        while stack:
+            node = stack.pop()
+            if node:
+                ret.append(node.val)
+                stack.append(node.left)
+                stack.append(node.right)
+
+        return ret[::-1]

@@ -1,6 +1,3 @@
-import collections
-
-
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         R, C = len(grid), len(grid[0])
