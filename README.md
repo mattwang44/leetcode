@@ -2,7 +2,7 @@
 
 ## LeetCode
 
-**Problem Solved: 131** (<span style="color:green">Easy: 27</span>, <span style="color:orange">Medium: 89</span>, <span style="color:red">Hard: 15</span>)
+**Problem Solved: 132** (<span style="color:green">Easy: 27</span>, <span style="color:orange">Medium: 90</span>, <span style="color:red">Hard: 15</span>)
 
 | # | Title | Solutions | Difficulty |
 | - | - | - | - |
@@ -106,6 +106,7 @@
 | 735 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | <a href="leetcode/00735_asteroid-collision/735-asteroid-collision.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | <a href="leetcode/00739_daily-temperatures/739-daily-temperatures.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 849 | [Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) | <a href="leetcode/00849_maximize-distance-to-closest-person/849-maximize-distance-to-closest-person.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
+| 856 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | <a href="leetcode/00856_score-of-parentheses/856-score-of-parentheses.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 862 | [Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) | <a href="leetcode/00862_shortest-subarray-with-sum-at-least-k/862-shortest-subarray-with-sum-at-least-k.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Hard |
 | 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | <a href="leetcode/00875_koko-eating-bananas/875-koko-eating-bananas.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | <a href="leetcode/00877_stone-game/877-stone-game.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
