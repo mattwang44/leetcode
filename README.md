@@ -2,7 +2,7 @@
 
 ## LeetCode
 
-**Problem Solved: 132** (<span style="color:green">Easy: 27</span>, <span style="color:orange">Medium: 90</span>, <span style="color:red">Hard: 15</span>)
+**Problem Solved: 134** (<span style="color:green">Easy: 27</span>, <span style="color:orange">Medium: 92</span>, <span style="color:red">Hard: 15</span>)
 
 | # | Title | Solutions | Difficulty |
 | - | - | - | - |
@@ -22,6 +22,8 @@
 | 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | <a href="leetcode/00032_longest-valid-parentheses/longest-valid-parentheses.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Hard |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | <a href="leetcode/00033_search-in-rotated-sorted-array/search-in-rotated-sorted-array.java"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="20" height="20"></a> | Medium |
 | 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | <a href="leetcode/00034_find-first-and-last-position-of-element-in-sorted-array/34-find-first-and-last-position-of-element-in-sorted-array.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
+| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | <a href="leetcode/00036_valid-sudoku/36-valid-sudoku.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
+| 38 | [Count and Say](https://leetcode.com/problems/count-and-say/) | <a href="leetcode/00038_count-and-say/38-count-and-say.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | <a href="leetcode/00039_combination-sum/combination-sum.cpp"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="20" height="20"></a> | Medium |
 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | <a href="leetcode/00041_first-missing-positive/first-missing-positive.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Hard |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | <a href="leetcode/00042_trapping-rain-water/42-trapping-rain-water.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Hard |
