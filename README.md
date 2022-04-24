@@ -2,7 +2,7 @@
 
 ## LeetCode
 
-**Problem Solved: 144** (<span style="color:green">Easy: 28</span>, <span style="color:orange">Medium: 100</span>, <span style="color:red">Hard: 16</span>)
+**Problem Solved: 145** (<span style="color:green">Easy: 28</span>, <span style="color:orange">Medium: 101</span>, <span style="color:red">Hard: 16</span>)
 
 | # | Title | Solutions | Difficulty |
 | - | - | - | - |
@@ -42,6 +42,7 @@
 | 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | <a href="leetcode/00080_remove-duplicates-from-sorted-array-ii/80-remove-duplicates-from-sorted-array-ii.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 93 | [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/) | <a href="leetcode/00093_restore-ip-addresses/93-restore-ip-addresses.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | <a href="leetcode/00094_binary-tree-inorder-traversal/94-binary-tree-inorder-traversal.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
+| 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | <a href="leetcode/00098_validate-binary-search-tree/98-validate-binary-search-tree.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | <a href="leetcode/00102_binary-tree-level-order-traversal/102-binary-tree-level-order-traversal.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | <a href="leetcode/00107_binary-tree-level-order-traversal-ii/107-binary-tree-level-order-traversal-ii.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Medium |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | <a href="leetcode/00121_best-time-to-buy-and-sell-stock/121-best-time-to-buy-and-sell-stock.py"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"></a> | Easy |
