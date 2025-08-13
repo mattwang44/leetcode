@@ -23,7 +23,7 @@ class Solution:
         for idx, num in enumerate(nums):
             if num == prev:
                 continue
-            for result in self.twoSum(nums[idx+1:], -num):
+            for result in self.twoSum(nums[idx + 1 :], -num):
                 ret.append([num] + result)
             prev = num
         return ret

@@ -1,5 +1,4 @@
 class MyHashMap:
-
     def __init__(self):
         """
         Initialize your data structure here.
@@ -20,7 +19,7 @@ class MyHashMap:
         """
         Returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key
         """
-        for (k, v) in self.memo:
+        for k, v in self.memo:
             if k == key:
                 return v
         return -1

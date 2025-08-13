@@ -4,7 +4,6 @@ from collections import Counter, defaultdict
 
 
 class FreqStack:
-
     def __init__(self):
         self.freq = Counter()
         self.groups = defaultdict(list)

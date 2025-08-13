@@ -11,7 +11,7 @@ class Solution:
         memo = defaultdict(list)
         for word in wordList:
             for i in range(l):
-                residual = word[:i] + '_' + word[i+1:]
+                residual = word[:i] + "_" + word[i + 1 :]
                 memo[residual].append(word[i])
 
         # bfs
@@ -27,8 +27,8 @@ class Solution:
             seen.add(word)
 
             for i, char in enumerate(word):
-                residual = word[:i] + '_' + word[i+1:]
+                residual = word[:i] + "_" + word[i + 1 :]
                 for e in memo[residual]:
-                    stack.append((word[:i] + e + word[i+1:], count + 1))
+                    stack.append((word[:i] + e + word[i + 1 :], count + 1))
 
         return 0

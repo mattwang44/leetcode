@@ -17,10 +17,11 @@ jobs:
       - name: Move questions to leetcode directory
         run: python3 .github/workflows/scripts/leethub_support.py
       
-      - name: Run autopep8
+      - name: Format python answers
         run: |
-          pip3 install autopep8
-          autopep8 -i -r leetcode
+          python3 -m pip install --upgrade pip
+          pip install ruff
+          ruff format **/*.py
       
       - name: Format go answers
         run: .github/workflows/scripts/go_handler.sh

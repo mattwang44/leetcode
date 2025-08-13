@@ -1,12 +1,11 @@
 class BrowserHistory:
-
     def __init__(self, homepage: str):
         self.h = [homepage]
         self.i = 0
 
     def visit(self, url: str) -> None:
         self.i += 1
-        self.h = self.h[:self.i] + [url]
+        self.h = self.h[: self.i] + [url]
 
     def back(self, steps: int) -> str:
         self.i = max(0, self.i - steps)

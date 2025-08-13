@@ -7,6 +7,6 @@ class Solution:
         while n:
             remainder = n % 9
             n = n // 9
-            acc = acc + remainder * (10 ** digit)
+            acc = acc + remainder * (10**digit)
             digit += 1
         return acc

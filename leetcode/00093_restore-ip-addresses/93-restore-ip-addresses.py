@@ -4,18 +4,18 @@ class Solution:
 
         def helper(s, curr=[]):
             if len(curr) == 4:
-                if s == '':
-                    ret.append('.'.join(curr))
+                if s == "":
+                    ret.append(".".join(curr))
                 return
 
-            acc = ''
+            acc = ""
             for idx, char in enumerate(s):
                 acc += char
-                if acc == '0':
-                    helper(s[idx+1:], curr+[acc])
+                if acc == "0":
+                    helper(s[idx + 1 :], curr + [acc])
                     break
                 elif 0 <= int(acc) <= 255:
-                    helper(s[idx+1:], curr+[acc])
+                    helper(s[idx + 1 :], curr + [acc])
                 else:
                     break
 

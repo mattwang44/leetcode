@@ -11,7 +11,7 @@ class Solution:
 
             keys = []
             for idx, char in enumerate(string[:-1]):
-                diff = ord(string[idx+1]) - ord(char)
+                diff = ord(string[idx + 1]) - ord(char)
                 if diff < 0:
                     diff += 26
                 keys.append(diff)

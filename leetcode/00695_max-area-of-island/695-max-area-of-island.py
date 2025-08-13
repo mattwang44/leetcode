@@ -3,18 +3,18 @@ class Solution:
         R, C = len(grid), len(grid[0])
 
         def traversal(r, c):
-            if not (0 <= r < R) or \
-                    not (0 <= c < C) or \
-                    grid[r][c] != 1:
+            if not (0 <= r < R) or not (0 <= c < C) or grid[r][c] != 1:
                 return 0
 
             grid[r][c] = 0
 
-            return 1 + \
-                traversal(r, c+1) + \
-                traversal(r, c-1) + \
-                traversal(r+1, c) + \
-                traversal(r-1, c)
+            return (
+                1
+                + traversal(r, c + 1)
+                + traversal(r, c - 1)
+                + traversal(r + 1, c)
+                + traversal(r - 1, c)
+            )
 
         max_area = 0
         for i in range(R):

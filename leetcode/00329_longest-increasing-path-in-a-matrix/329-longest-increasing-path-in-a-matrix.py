@@ -19,11 +19,13 @@ class Solution:
             dist = 1
             for offset in offsets:
                 dr, dc = offset
-                if not (0 <= r+dr < R) or \
-                   not (0 <= c+dc < C) or \
-                   matrix[r][c] >= matrix[r+dr][c+dc]:
+                if (
+                    not (0 <= r + dr < R)
+                    or not (0 <= c + dc < C)
+                    or matrix[r][c] >= matrix[r + dr][c + dc]
+                ):
                     continue
-                dist = max(dist, dfs(r+dr, c+dc) + 1)
+                dist = max(dist, dfs(r + dr, c + dc) + 1)
             memo[r][c] = dist
             return dist
 

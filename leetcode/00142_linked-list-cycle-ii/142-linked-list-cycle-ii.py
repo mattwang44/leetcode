@@ -4,6 +4,7 @@
 #         self.val = x
 #         self.next = None
 
+
 class Solution:
     # Try Floyd's Tortoise and Hare next time
     def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:

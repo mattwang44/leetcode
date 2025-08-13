@@ -9,7 +9,7 @@ class Solution:
         mod = 10000000000000
 
         def charcode(char: str) -> int:
-            return ord(char) - ord('a')
+            return ord(char) - ord("a")
 
         def _hash(string: str) -> int:
             h = 0
@@ -19,18 +19,16 @@ class Solution:
 
         def is_valid_length(length: int) -> Tuple[bool, str]:
             d = {}
-            string_hash = _hash(s[:length - 1])
+            string_hash = _hash(s[: length - 1])
             first_digit_mod = base ** (length - 1) % mod
             for idx in range(len(s) - length + 1):
-                string_hash = (string_hash * base +
-                               charcode(s[idx + length - 1])) % mod
+                string_hash = (string_hash * base + charcode(s[idx + length - 1])) % mod
 
                 if string_hash in d:
-                    return True, s[idx:idx + length]
+                    return True, s[idx : idx + length]
                 d[string_hash] = idx
 
-                string_hash = (string_hash - first_digit_mod *
-                               charcode(s[idx])) % mod
+                string_hash = (string_hash - first_digit_mod * charcode(s[idx])) % mod
             return False, None
 
         ########## Without Rabin-Karp ###########

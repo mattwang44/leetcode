@@ -23,6 +23,6 @@ class Solution:
                 target_level = level
 
             if node.left:
-                q.append((node.left, level+1))
+                q.append((node.left, level + 1))
             if node.right:
-                q.append((node.right, level+1))
+                q.append((node.right, level + 1))

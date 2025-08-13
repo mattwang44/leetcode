@@ -4,7 +4,7 @@ class Solution:
         # default value
         ret = string[start]
         while string[start] == string[end]:
-            ret = string[start: end + 1]
+            ret = string[start : end + 1]
             if start - 1 < 0 or end + 1 > len(string) - 1:
                 break
             start -= 1
@@ -12,7 +12,7 @@ class Solution:
         return ret
 
     def longestPalindrome(self, s: str) -> str:
-        ret = ''
+        ret = ""
         for i in range(len(s)):
             string = self.expand(s, i, i)
             if len(string) > len(ret):

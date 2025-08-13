@@ -24,7 +24,9 @@ class Solution:
 
             any_covered = False
             for idx, target_interval in enumerate(ret):
-                is_covered, result_interval = compare_intervals(target_interval, interval)
+                is_covered, result_interval = compare_intervals(
+                    target_interval, interval
+                )
                 if is_covered:
                     ret[idx] = result_interval
                     any_covered = True

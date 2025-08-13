@@ -4,9 +4,9 @@ class Solution:
 
         l = r = 0
         for idx, char in enumerate(s):
-            if char not in ['(', ')']:
+            if char not in ["(", ")"]:
                 continue
-            if char == '(':
+            if char == "(":
                 l += 1
             elif l > 0:
                 l -= 1
@@ -15,9 +15,9 @@ class Solution:
 
         l = r = 0
         for idx, char in enumerate(s[::-1]):
-            if char not in ['(', ')']:
+            if char not in ["(", ")"]:
                 continue
-            if char == ')':
+            if char == ")":
                 r += 1
             elif r > 0:
                 r -= 1

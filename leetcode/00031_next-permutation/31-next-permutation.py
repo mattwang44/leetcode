@@ -10,7 +10,7 @@ class Solution:
 
         # find the first decreasing number
         for idx in range(l - 2, -1, -1):
-            if nums[idx+1] > nums[idx]:
+            if nums[idx + 1] > nums[idx]:
                 break
         else:
             # if not exist, nums in reverse order is the answer
@@ -18,7 +18,7 @@ class Solution:
             return
 
         # find the number just larger than nums[idx]
-        for i in range(idx+1, l):
+        for i in range(idx + 1, l):
             if nums[i] <= nums[idx]:
                 i -= 1
                 break
@@ -27,5 +27,5 @@ class Solution:
 
         # swap the two above indices, and revese the part after the index idx
         nums[idx], nums[i] = nums[i], nums[idx]
-        nums[idx+1:] = nums[idx+1:][::-1]
+        nums[idx + 1 :] = nums[idx + 1 :][::-1]
         return

@@ -6,11 +6,11 @@ class Solution:
         def is_valid(s):
             l = r = 0
             for char in s:
-                if char not in ['(', ')']:
+                if char not in ["(", ")"]:
                     continue
-                elif char == '(':
+                elif char == "(":
                     l += 1
-                elif l > 0 and char == ')':
+                elif l > 0 and char == ")":
                     l -= 1
                 else:
                     return False
@@ -20,9 +20,9 @@ class Solution:
         l = r = 0
         stack = []
         for char in s:
-            if char not in ['(', ')']:
+            if char not in ["(", ")"]:
                 continue
-            if char == '(':
+            if char == "(":
                 l += 1
             elif l > 0:
                 l -= 1
@@ -48,17 +48,17 @@ class Solution:
                 continue
 
             for idx, char in enumerate(_s):
-                if char not in ['(', ')']:
+                if char not in ["(", ")"]:
                     continue
 
                 # new string with the current character removed
-                new_s = _s[:idx] + _s[idx+1:]
+                new_s = _s[:idx] + _s[idx + 1 :]
 
-                if char == '(':
+                if char == "(":
                     if l_err == 0:
                         continue
                     stack.append((new_s, (l_err - 1, r_err)))
-                elif char == ')':
+                elif char == ")":
                     if r_err == 0:
                         continue
                     stack.append((new_s, (l_err, r_err - 1)))

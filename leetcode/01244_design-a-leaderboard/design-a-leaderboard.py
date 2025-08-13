@@ -2,7 +2,6 @@ import heapq
 
 
 class Leaderboard:
-
     def __init__(self):
         self.board = {}
 

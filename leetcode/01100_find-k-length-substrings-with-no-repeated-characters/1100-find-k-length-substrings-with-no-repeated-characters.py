@@ -14,13 +14,13 @@ class Solution:
                 curr = Counter(s[:k])
             else:
                 # handle char to be removed
-                char_rm = s[i-1]
+                char_rm = s[i - 1]
                 curr[char_rm] -= 1
                 if curr[char_rm] == 0:
                     del curr[char_rm]
 
                 # handle char to be added
-                char_add = s[i+k-1]
+                char_add = s[i + k - 1]
                 curr[char_add] += 1
 
                 # decrease skip count in each iteration

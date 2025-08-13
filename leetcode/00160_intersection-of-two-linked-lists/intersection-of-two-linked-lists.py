@@ -4,9 +4,12 @@
 #         self.val = x
 #         self.next = None
 
+
 class Solution:
     # time O(N+M), space O(1)
-    def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
+    def getIntersectionNode(
+        self, headA: ListNode, headB: ListNode
+    ) -> Optional[ListNode]:
         if not headA or not headB:
             return None
 

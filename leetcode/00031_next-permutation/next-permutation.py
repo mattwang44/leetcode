@@ -30,11 +30,11 @@ class Solution:
         # find pivot element and the next lexicographical number
         pivot = nums[i]
         idx_to_swap = None
-        for idx, n in enumerate(nums[i+1:]):
+        for idx, n in enumerate(nums[i + 1 :]):
             if n > pivot:
                 idx_to_swap = i + idx + 1
                 continue
             break
 
         nums[i], nums[idx_to_swap] = nums[idx_to_swap], nums[i]
-        nums[i+1:] = sorted(nums[i+1:])
+        nums[i + 1 :] = sorted(nums[i + 1 :])

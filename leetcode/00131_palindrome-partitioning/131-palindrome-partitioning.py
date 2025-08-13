@@ -16,7 +16,7 @@ class Solution:
             if len(s) == 0:
                 ret.append(current.copy())
             else:
-                for i in range(1, len(s)+1):
+                for i in range(1, len(s) + 1):
                     if not self.is_palindrome(s[:i]):
                         continue
                     current.append(s[:i])

@@ -1,5 +1,5 @@
 class Solution:
-    EMPTY = 2 ** 31 - 1
+    EMPTY = 2**31 - 1
     WALL = -1
     GATE = 0
 
@@ -31,9 +31,11 @@ class Solution:
                 _r = r + r_offset
                 _c = c + c_offset
 
-                if not (0 <= _r < R) or \
-                        not (0 <= _c < C) or \
-                        rooms[_r][_c] != self.EMPTY:
+                if (
+                    not (0 <= _r < R)
+                    or not (0 <= _c < C)
+                    or rooms[_r][_c] != self.EMPTY
+                ):
                     continue
 
                 rooms[_r][_c] = step_count + 1

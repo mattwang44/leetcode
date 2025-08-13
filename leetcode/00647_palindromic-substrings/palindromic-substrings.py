@@ -3,9 +3,7 @@ class Solution:
         length = len(s)
         count = 0
         while True:
-            if not 0 <= l < length or \
-                    not 0 <= r < length or \
-                    s[l] != s[r]:
+            if not 0 <= l < length or not 0 <= r < length or s[l] != s[r]:
                 break
 
             count += 1

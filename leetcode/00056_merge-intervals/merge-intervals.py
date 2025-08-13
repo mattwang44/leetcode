@@ -8,4 +8,4 @@ class Solution:
             else:
                 idx += 1
                 intervals[idx] = intervals[i]
-        return intervals[:idx+1]
+        return intervals[: idx + 1]

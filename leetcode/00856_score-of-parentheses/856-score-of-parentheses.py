@@ -7,10 +7,10 @@ class Solution:
     def scoreOfParentheses(self, s: str) -> int:
         power = acc = 0
         for idx, char in enumerate(s):
-            if char == '(':
+            if char == "(":
                 power += 1
             else:
                 power -= 1
-                if s[idx - 1] == '(':
-                    acc += 2 ** power
+                if s[idx - 1] == "(":
+                    acc += 2**power
         return acc

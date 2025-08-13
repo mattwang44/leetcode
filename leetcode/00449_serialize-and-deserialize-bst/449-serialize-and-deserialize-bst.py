@@ -5,8 +5,9 @@
 #         self.left = None
 #         self.right = None
 
+
 class Codec:
-    delimiter = ','
+    delimiter = ","
 
     def postorder(self, root):
         if not root:
@@ -14,13 +15,11 @@ class Codec:
         return self.postorder(root.left) + self.postorder(root.right) + [root.val]
 
     def serialize(self, root: Optional[TreeNode]) -> str:
-        """Encodes a tree to a single string.
-        """
+        """Encodes a tree to a single string."""
         return self.delimiter.join(str(num) for num in self.postorder(root))
 
     def deserialize(self, data: str) -> Optional[TreeNode]:
-        """Decodes your encoded data to tree.
-        """
+        """Decodes your encoded data to tree."""
         if len(data) == 0:
             return None
 

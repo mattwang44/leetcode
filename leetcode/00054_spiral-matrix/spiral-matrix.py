@@ -16,9 +16,7 @@ class Solution:
 
             _m = m + dirs[dir_idx][0]
             _n = n + dirs[dir_idx][1]
-            if not 0 <= _m < R or \
-                    not 0 <= _n < C or \
-                    matrix[_m][_n] is None:
+            if not 0 <= _m < R or not 0 <= _n < C or matrix[_m][_n] is None:
                 dir_idx = (dir_idx + 1) % 4
 
             m += dirs[dir_idx][0]

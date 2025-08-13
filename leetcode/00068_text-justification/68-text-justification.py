@@ -9,7 +9,6 @@ class Solution:
 
             # check if length is exceeded
             if count - 1 > maxWidth:
-
                 # count spaces
                 total_spaces = maxWidth - sum(len(words[idx]) for idx in indices)
 

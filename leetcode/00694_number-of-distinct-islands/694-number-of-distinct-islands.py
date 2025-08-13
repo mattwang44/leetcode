@@ -17,9 +17,7 @@ class Solution:
 
             while nodes:
                 r, c = nodes.popleft()
-                if not (0 <= r < R) or \
-                        not (0 <= c < C) or \
-                        grid[r][c] == 0:
+                if not (0 <= r < R) or not (0 <= c < C) or grid[r][c] == 0:
                     continue
 
                 encoded.append((r - start_r, c - start_c))
@@ -28,7 +26,7 @@ class Solution:
                 for dr, dc in offsets:
                     nodes.append((r + dr, c + dc))
 
-            return ','.join(str(e) for e in encoded)
+            return ",".join(str(e) for e in encoded)
 
         for r in range(R):
             for c in range(C):

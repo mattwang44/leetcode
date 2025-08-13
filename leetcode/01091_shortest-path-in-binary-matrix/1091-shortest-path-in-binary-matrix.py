@@ -25,8 +25,7 @@ class Solution:
         while nodes:
             r, c, steps = nodes.popleft()
 
-            if not (0 <= r < R) or \
-                    not (0 <= c < C):
+            if not (0 <= r < R) or not (0 <= c < C):
                 continue
 
             if grid[r][c] == 1:

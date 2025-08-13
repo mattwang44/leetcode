@@ -13,8 +13,10 @@ class Solution:
                 if counter[task] == 0:
                     continue
 
-                if last_exec_idx[task] is not None and \
-                        ops_count - last_exec_idx[task] <= n:
+                if (
+                    last_exec_idx[task] is not None
+                    and ops_count - last_exec_idx[task] <= n
+                ):
                     continue
 
                 last_exec_idx[task] = ops_count

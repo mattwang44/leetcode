@@ -10,17 +10,15 @@ class Solution:
         count = 0
 
         def dfs(r, c):
-            if not 0 <= r < R or \
-               not 0 <= c < C or \
-               grid[r][c] is not '1':
+            if not 0 <= r < R or not 0 <= c < C or grid[r][c] is not "1":
                 return
-            grid[r][c] = '0'
+            grid[r][c] = "0"
             for dr, dc in directions:
                 dfs(r + dr, c + dc)
 
         for r in range(R):
             for c in range(C):
-                if grid[r][c] == '0':
+                if grid[r][c] == "0":
                     continue
                 dfs(r, c)
                 count += 1

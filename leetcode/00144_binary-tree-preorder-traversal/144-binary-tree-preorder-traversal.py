@@ -10,9 +10,11 @@ class Solution:
         if not root:
             return []
 
-        return [root.val] + \
-            self.preorderTraversal(root.left) + \
-            self.preorderTraversal(root.right)
+        return (
+            [root.val]
+            + self.preorderTraversal(root.left)
+            + self.preorderTraversal(root.right)
+        )
 
     # Iterative, time O(N), space O(N)
     def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:

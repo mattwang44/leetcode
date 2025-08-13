@@ -13,12 +13,12 @@ class Solution:
             if i == 0:
                 curr = Counter(s2[:l1])
             else:
-                char_rm = s2[i-1]
+                char_rm = s2[i - 1]
                 curr[char_rm] -= 1
                 if curr[char_rm] == 0:
                     del curr[char_rm]
 
-                char_add = s2[i+l1-1]
+                char_add = s2[i + l1 - 1]
                 curr[char_add] += 1
 
             if target == curr:

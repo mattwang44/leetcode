@@ -4,7 +4,7 @@ class Solution:
         num_digits = len(str(low))
 
         def l2n(l):
-            return int(''.join(str(n) for n in l))
+            return int("".join(str(n) for n in l))
 
         while num_digits <= len(str(high)):
             for i in range(1, 10 - num_digits + 1):

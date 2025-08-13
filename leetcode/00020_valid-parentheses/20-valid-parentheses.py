@@ -2,9 +2,9 @@ class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
         mapping = {
-            '(': ')',
-            '[': ']',
-            '{': '}',
+            "(": ")",
+            "[": "]",
+            "{": "}",
         }
         for bracket in s:
             if bracket in mapping:

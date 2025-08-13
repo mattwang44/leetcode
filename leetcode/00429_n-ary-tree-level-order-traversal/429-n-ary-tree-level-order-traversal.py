@@ -5,11 +5,12 @@ class Node:
         self.val = val
         self.children = children
 """
+
 from collections import defaultdict
 
 
 class Solution:
-    def levelOrder(self, root: 'Node') -> List[List[int]]:
+    def levelOrder(self, root: "Node") -> List[List[int]]:
         if not root:
             return []
 
@@ -23,7 +24,7 @@ class Solution:
 
             if node.children:
                 for child in node.children:
-                    helper(child, level+1)
+                    helper(child, level + 1)
 
         helper(root, 0)
 

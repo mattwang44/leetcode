@@ -24,6 +24,6 @@ class Solution:
                 idx_lag += 1
 
             # move the curr value
-            nums[idx-idx_lag] = num
+            nums[idx - idx_lag] = num
 
         return len(nums) - idx_lag

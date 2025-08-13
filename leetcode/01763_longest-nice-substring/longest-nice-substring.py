@@ -8,7 +8,7 @@ class Solution:
 
     def longestNiceSubstring(self, s: str) -> str:
         length = len(s)
-        curr_longest = ''
+        curr_longest = ""
         for i in range(length):
             for j in range(i + 1, length + 1):
                 if j - i <= len(curr_longest):

@@ -9,7 +9,6 @@ import sys
 
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-
         def helper(node, lower, upper):
             if not node:
                 return True

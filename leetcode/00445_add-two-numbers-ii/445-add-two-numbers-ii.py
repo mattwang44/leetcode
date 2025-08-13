@@ -16,7 +16,9 @@ class Solution:
 
     # time O(N)
     # space O(1)
-    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+    def addTwoNumbers(
+        self, l1: Optional[ListNode], l2: Optional[ListNode]
+    ) -> Optional[ListNode]:
         if not l1:
             return l2
         if not l2:

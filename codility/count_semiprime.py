@@ -8,7 +8,7 @@ def solution(N, P, Q):
     non_primes = {}
     for i in range(2, int(math.sqrt(N)) + 1):
         if i not in non_primes:
-            for j in range(i ** 2, N, i):
+            for j in range(i**2, N, i):
                 non_primes[j] = 1
 
     primes = set(range(2, N))
@@ -17,9 +17,7 @@ def solution(N, P, Q):
 
     semi_primes = []
     for idx, p in enumerate(primes):
-        semi_primes.extend([
-            prime * p for prime in primes[idx:]
-        ])
+        semi_primes.extend([prime * p for prime in primes[idx:]])
     semi_primes = [sp for sp in semi_primes if sp <= N]
     semi_primes.sort()
 

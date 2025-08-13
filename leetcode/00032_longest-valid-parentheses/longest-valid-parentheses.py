@@ -8,9 +8,9 @@ class Solution:
 
         q = []
         for idx, p in enumerate(s):
-            if not q or p == '(':
+            if not q or p == "(":
                 q.append((idx, p))
-            elif q and q[-1][1] == '(':
+            elif q and q[-1][1] == "(":
                 pair_idx, _ = q.pop()
                 memo[pair_idx] = memo[idx] = 1
 

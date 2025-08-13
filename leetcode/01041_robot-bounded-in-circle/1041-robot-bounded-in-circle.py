@@ -8,12 +8,12 @@ class Solution:
         start = curr = (0, 0)
 
         for char in instructions:
-            if char == 'G':
+            if char == "G":
                 x, y = self.to_xy(deg)
                 curr = (curr[0] + x, curr[1] + y)
-            elif char == 'L':
+            elif char == "L":
                 deg += math.pi / 2
-            elif char == 'R':
+            elif char == "R":
                 deg -= math.pi / 2
 
         if start == curr:

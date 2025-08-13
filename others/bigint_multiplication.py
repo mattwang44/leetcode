@@ -1,5 +1,5 @@
-i1 = '3141592653589793238462643383279502884197169399375105820974944592'
-i2 = '2718281828459045235360287471352662497757247093699959574966967627'
+i1 = "3141592653589793238462643383279502884197169399375105820974944592"
+i2 = "2718281828459045235360287471352662497757247093699959574966967627"
 
 
 def multiply_string(a, b):
@@ -9,35 +9,29 @@ def multiply_string(a, b):
     if num_digits_a == 1 or num_digits_b == 1:
         return str(int(a) * int(b))
 
-    a1, a2 = a[:num_digits_a // 2], a[num_digits_a // 2:]
-    b1, b2 = b[:num_digits_b // 2], b[num_digits_b // 2:]
+    a1, a2 = a[: num_digits_a // 2], a[num_digits_a // 2 :]
+    b1, b2 = b[: num_digits_b // 2], b[num_digits_b // 2 :]
 
     a1b1 = multiply_string(a1, b1)
     a1b2 = multiply_string(a1, b2)
     a2b1 = multiply_string(a2, b1)
     a2b2 = multiply_string(a2, b2)
     result = plus_string(
-        plus_string(
-            a1b1 + '0' * (len(b2) + len(a2)),
-            a1b2 + '0' * len(a2)
-        ),
-        plus_string(
-            a2b1 + '0' * len(b2),
-            a2b2
-        )
+        plus_string(a1b1 + "0" * (len(b2) + len(a2)), a1b2 + "0" * len(a2)),
+        plus_string(a2b1 + "0" * len(b2), a2b2),
     )
     return result
 
 
 def plus_string(a, b):
-    result = ''
+    result = ""
     t = 0
 
     diff = len(a) - len(b)
     if diff > 0:
-        b = '0' * diff + b
+        b = "0" * diff + b
     else:
-        a = '0' * diff + a
+        a = "0" * diff + a
 
     for i, j in list(zip(a, b))[::-1]:
         summation = int(i) + int(j)

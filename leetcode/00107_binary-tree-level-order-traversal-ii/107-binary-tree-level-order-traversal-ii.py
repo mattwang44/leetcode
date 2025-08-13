@@ -18,9 +18,9 @@ class Solution:
             ret[level].append(node.val)
 
             if node.left:
-                helper(node.left, level+1)
+                helper(node.left, level + 1)
             if node.right:
-                helper(node.right, level+1)
+                helper(node.right, level + 1)
 
         helper(root, 0)
 

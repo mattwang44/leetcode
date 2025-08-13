@@ -1,6 +1,6 @@
 class Solution:
     def wordPattern(self, pattern: str, s: str) -> bool:
-        _s = s.split(' ')
+        _s = s.split(" ")
         if len(_s) != len(pattern):
             return False
 

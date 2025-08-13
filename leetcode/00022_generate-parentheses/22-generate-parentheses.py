@@ -1,6 +1,6 @@
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
-        candidates = ['()']
+        candidates = ["()"]
         if n == 1:
             return candidates
 
@@ -8,7 +8,7 @@ class Solution:
             seen = set()
             for cand in candidates:
                 for i in range(len(cand)):
-                    new_str = cand[:i] + '()' + cand[i:]
+                    new_str = cand[:i] + "()" + cand[i:]
                     if new_str not in seen:
                         seen.add(new_str)
             candidates = list(seen)
